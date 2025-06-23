@@ -133,7 +133,7 @@ const Shorten = () => {
         <input
           type="text"
           value={shorturl}
-          placeholder="Enter custom short text (optional)"
+          placeholder="Enter custom short text(optional)"
           onChange={(e) => setShortUrl(e.target.value)}
           className="px-4 py-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-purple-400 transition-all"
         />
