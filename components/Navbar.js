@@ -1,28 +1,3 @@
-// import React from 'react';
-// import Link from 'next/link';
-
-// const Navbar = () => {
-//   return (
-//     <nav className="h-24 bg-purple-600 text-white flex justify-between px-3 items-center">
-//       <div className='logo font-bold text-4xl px-30 ml-10'>
-//         {/* <Link href="/"><li>Shrinkr</li></Link> */}
-//         Shrinkr
-//       </div>
-//       <ul className='flex justify-center gap-4 items-center'>
-//         <Link href="/"><li>Home</li></Link>        
-//         <Link href="/shorten"><li>Shorten</li></Link>
-//         <Link href="/contact"><li>Contact Us</li></Link>
-
-//         <li className='flex gap-3'>
-//           <Link href="/shorten"><button className='bg-purple-500 shadow-lg p-3 rounded-lg font-bold py-1'>Try Now!</button></Link>
-//         </li>
-//       </ul>
-//     </nav>
-//   )
-// }
-
-// export default Navbar
-
 import React from "react";
 import Link from "next/link";
 
