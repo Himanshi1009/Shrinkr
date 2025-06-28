@@ -14,11 +14,11 @@ export async function POST(request) {
     let shorturl = body.shorturl?.trim();
 
     if (!shorturl) {
-      // Generate unique Snowflake ID as fallback
+      // Generate unique Snowflake ID
       let exists;
       do {
-        const id = flake.next(); // Returns Buffer
-        shorturl = intformat(id, "dec"); // Convert to string
+        const id = flake.next(); 
+        shorturl = intformat(id, "dec"); //  to string
         exists = await collection.findOne({ shorturl });
       } while (exists);
     } else {
